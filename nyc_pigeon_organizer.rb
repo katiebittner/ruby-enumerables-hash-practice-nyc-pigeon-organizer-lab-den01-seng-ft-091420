@@ -2,19 +2,19 @@ def nyc_pigeon_organizer(data)
   
   organized_pigeons = {}
   
-  data.each do |key, value|
+                #ex. color          #ex. list of colors and pigeon names
+  data.each do |attribute_category, attribute_list|
+          
+                            #ex. purple   #ex. theo peter jr lucky
+    attribute_list.each do |attribute, pigeon|    
+      if organized_pigeons[pigeon] == nil 
+        oragnized_pigeons = pigeon
+      else organized_pigeons[pigeon] =
     
-    value.each do |inner_key, inner_value|
-      if organized_pigeons[inner_value] == nil
-        organized_pigeons[inner_value] = {}
-        organized_pigeons[inner_value][key] = []
-      else
-        organized_pigeons[inner_value][key] = []
-      end
     end
     
   end
-  
+
   organized_pigeons
   
 end
