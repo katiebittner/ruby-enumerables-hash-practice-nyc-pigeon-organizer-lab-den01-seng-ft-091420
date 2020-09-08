@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
                             #ex. purple   #ex. theo peter jr lucky
     attribute_list.each do |attribute, pigeon|    
       if organized_pigeons[pigeon] == nil 
-        oragnized_pigeons = pigeon
+        pigeon
       else organized_pigeons[pigeon] =
     
     end
