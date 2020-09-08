@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
             organized_pigeons[pigeon][attribute_category] = [attribute]
         else 
           organized_pigeon[pigeon] = {
-            attribute 
+            attribute_category: attribute
           }
         end
         
