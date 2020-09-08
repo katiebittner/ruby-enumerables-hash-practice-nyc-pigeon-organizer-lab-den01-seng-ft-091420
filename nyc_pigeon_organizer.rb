@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         organized_pigeons[inner_value] = {}
         organized_pigeons[inner_value][key] = []
       else
-        organized_pigeons[inner_value] = inner_key
+        organized_pigeons[inner_value][key] = []
       end
     end
     
