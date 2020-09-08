@@ -5,4 +5,5 @@ def nyc_pigeon_organizer(data)
       organized_pigeons[inner_value] = inner_key
     end
   end
+  organized_pigeons
 end
