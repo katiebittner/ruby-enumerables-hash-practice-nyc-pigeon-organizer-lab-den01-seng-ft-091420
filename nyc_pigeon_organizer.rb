@@ -15,6 +15,8 @@ def nyc_pigeon_organizer(data)
         end
         if !organized_pigeons[pigeon][attribute_category]
           organized_pigeons[pigeon][attribute_category] = []
+        end
+        organized_pigeons[pigeon][attribute_category].push(attribute.to_s)
       end 
     end 
   end 
