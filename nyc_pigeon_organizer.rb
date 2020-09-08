@@ -11,11 +11,12 @@ def nyc_pigeon_organizer(data)
       #ex. [theo peter lucky]     #ex theo
       pigeons.each do |pigeon|
       
-        #if theo is already in the list, adds a category and its value as in color: purple
+        #if theo is already in the list and has a color category, adds an additional color
         if organized_pigeons[pigeon][attribute_category] 
           organized_pigeons[pigeon][attribute_category].push(attribute)
+        #if theo is in the list but does not have color category, add the key
         else if organized_pigeons[pigeon]
-          organized_pigeons[pigeon] = {}
+          
           organized_pigeons[pigeon][attribute_category] = [attribute]
         end
     
