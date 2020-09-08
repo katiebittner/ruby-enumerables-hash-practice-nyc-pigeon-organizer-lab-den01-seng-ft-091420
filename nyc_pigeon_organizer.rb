@@ -1,5 +1,4 @@
 def nyc_pigeon_organizer(data)
-  
   organized_pigeons = {}
   
   #ex color (hash)    #ex. purple (array)
@@ -18,14 +17,8 @@ def nyc_pigeon_organizer(data)
         else if organized_pigeons[pigeon]
           organized_pigeons[pigeon][attribute_category] = [attribute]
         end
-    
       end
-      
     end
-    
   end
-
   organized_pigeons
-  
-end
 end
