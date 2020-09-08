@@ -11,10 +11,7 @@ def nyc_pigeon_organizer(data)
       pigeons.each do |pigeon|
       
         if organized_pigeons[pigeon]
-          if organized_pigeons[pigeon][attribute_category]
             organized_pigeons[pigeon][attribute_category] << attribute.to_s
-          else 
-            organized_pigeons[pigeon][attribute_category] = [attribute.to_s]
           end
         else 
           organized_pigeons[pigeon] = {
