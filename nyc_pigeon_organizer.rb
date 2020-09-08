@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
         organized_pigeons[pigeon] = {}
         organized_pigeons[pigeon][attribute] = []
       else
-        organized_pigeons[pigeon][attribute] = 
+        organized_pigeons[pigeon][attribute] = []
     
     end
     
