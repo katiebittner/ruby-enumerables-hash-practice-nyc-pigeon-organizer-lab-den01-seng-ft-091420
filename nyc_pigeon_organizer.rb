@@ -13,7 +13,9 @@ def nyc_pigeon_organizer(data)
         if organized_pigeons[pigeon]
           if organized_pigeons[pigeon][attribute_category]
             organized_pigeons[pigeon][attribute_category].push(attribute)
-          else organized_pigeons[pigeon][attribute_category] = [attribute]
+          else 
+            organized_pigeons[pigeon][attribute_category] = [attribute]
+        else organized_pigeon[pigeon] = {}
         end
         
       end
