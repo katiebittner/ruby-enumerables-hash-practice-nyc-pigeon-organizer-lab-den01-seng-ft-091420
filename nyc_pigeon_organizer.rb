@@ -1,7 +1,5 @@
 def nyc_pigeon_organizer(data)
-  organized_pigeons = {}
-
-  data.each do |attribute_category, attribute_list|
+  organized_pigeons  |attribute_category, attribute_list|
 
     attribute_list.each do |attribute, pigeons|   
 
