@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
       pigeons.each do |pigeon|
       
         if organized_pigeons[pigeon]
+            puts "successfully found an existing pigeon"
             if organized_pigeons[pigeon][attribute_category] == nil
               organized_pigeons[pigeon][attribute_category] = []
             end
