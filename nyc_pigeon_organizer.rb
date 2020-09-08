@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
       pigeons.each do |pigeon|
       
 
-          organized_pigeons[pigeon] = {}
+        organized_pigeons[pigeon] = {}
         if organized_pigeons[pigeon] && organized_pigeons[pigeon][attribute_category] == nil
           puts "Creating new array for " + attribute_category.to_s
           organized_pigeons[pigeon][attribute_category] = Array.new
@@ -20,7 +20,6 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-end
 puts organized_pigeons
 organized_pigeons
 end
