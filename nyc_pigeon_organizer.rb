@@ -17,6 +17,7 @@ def nyc_pigeon_organizer(data)
           organized_pigeons[pigeon][attribute_category] = Array.new
         end
         organized_pigeons[pigeon][attribute_category].push(attribute.to_s)
+        puts "pushed " + organized_pigeons[pigeon][attribute_category].to_s
       end
     end
   end
