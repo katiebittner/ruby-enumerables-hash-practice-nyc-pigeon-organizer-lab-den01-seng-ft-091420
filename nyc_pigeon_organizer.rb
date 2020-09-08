@@ -12,7 +12,8 @@ def nyc_pigeon_organizer(data)
       
         if !organized_pigeons[pigeon]
           organized_pigeons[pigeon] = {}
-        end 
+        end
+        if !organized_pigeons[pigeon][]
       end 
     end 
   end 
