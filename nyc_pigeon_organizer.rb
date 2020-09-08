@@ -2,10 +2,10 @@ def nyc_pigeon_organizer(data)
   
   organized_pigeons = {}
   
-                #ex. color          #ex. list of colors and pigeon names
+                #ex. color  - hash    #ex. list of colors and names - hash
   data.each do |attribute_category, attribute_list|
           
-                            #ex. purple   #ex. theo peter jr lucky
+                 #ex. purple - hash  #ex. theo peter jr lucky - array
     attribute_list.each do |attribute, pigeon|   
       
       if organized_pigeons[pigeon] == nil 
