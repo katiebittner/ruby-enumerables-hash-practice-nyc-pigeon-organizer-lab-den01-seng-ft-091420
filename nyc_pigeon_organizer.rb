@@ -6,12 +6,14 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute_category, attribute_list|
           
                             #ex. purple   #ex. theo peter jr lucky
-    attribute_list.each do |attribute, pigeon|    
+    attribute_list.each do |attribute, pigeon|   
+      
       if organized_pigeons[pigeon] == nil 
         organized_pigeons[pigeon] = {}
         organized_pigeons[pigeon][attribute] = []
       else
         organized_pigeons[pigeon][attribute] = []
+      end
     
     end
     
