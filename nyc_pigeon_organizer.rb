@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     attribute_list.each do |attribute, pigeon|    
       if organized_pigeons[pigeon] == nil 
         organized_pigeons[pigeon] = {}
-        organized_pigeons[pigeon][attribute]
+        organized_pigeons[pigeon][attribute] = []
       else organized_pigeons[pigeon] =
     
     end
