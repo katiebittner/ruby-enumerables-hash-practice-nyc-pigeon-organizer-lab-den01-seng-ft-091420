@@ -10,9 +10,9 @@ def nyc_pigeon_organizer(data)
       #ex. [theo peter lucky]     #ex theo
       pigeons.each do |pigeon|
       
-
-        organized_pigeons[pigeon] = {}
-        if organized_pigeons[pigeon] && organized_pigeons[pigeon][attribute_category] == nil
+        if organized_pigeons[pigeon] == nil
+          organized_pigeons[pigeon] = {}
+        else if organized_pigeons[pigeon] && organized_pigeons[pigeon][attribute_category] == nil
           puts "Creating new array for " + attribute_category.to_s
           organized_pigeons[pigeon][attribute_category] = Array.new
         end
@@ -20,6 +20,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+end
 puts organized_pigeons
 organized_pigeons
 end
