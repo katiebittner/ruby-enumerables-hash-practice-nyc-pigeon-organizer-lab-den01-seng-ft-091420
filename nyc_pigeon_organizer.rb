@@ -10,7 +10,8 @@ def nyc_pigeon_organizer(data)
       if organized_pigeons[pigeon] == nil 
         organized_pigeons[pigeon] = {}
         organized_pigeons[pigeon][attribute] = []
-      else organized_pigeons[pigeon] =
+      else
+        
     
     end
     
