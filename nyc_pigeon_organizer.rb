@@ -1,5 +1,9 @@
 def nyc_pigeon_organizer(data)
-  data.collect do 
+  organized_pigeons = {}
+  
+  data.collect do |key, value|
+    
+  end
   
   
   
