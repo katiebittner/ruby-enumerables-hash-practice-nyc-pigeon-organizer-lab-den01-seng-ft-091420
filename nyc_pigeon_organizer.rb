@@ -6,7 +6,8 @@ def nyc_pigeon_organizer(data)
     
     value.each do |inner_key, inner_value|
       if organized_pigeons[inner_value] == nil
-        orgnized_pigeons[inner_value] = {}
+        organized_pigeons[inner_value] = {}
+        organized_pigeons[inner_value]
       else
         organized_pigeons[inner_value] = inner_key
       end
