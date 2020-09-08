@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       #ex. [theo peter lucky]     #ex theo
       pigeons.each do |pigeon|
       
-        if organized_pigeons[pigeon] == nil
+
           organized_pigeons[pigeon] = {}
         else if organized_pigeons[pigeon] && organized_pigeons[pigeon][attribute_category] == nil
           puts "Creating new array for " + attribute_category.to_s
